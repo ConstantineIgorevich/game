@@ -21,9 +21,6 @@ jest-config/
 dist/
 build/
 
-# Babel
-babel.config.js
-
 # IDE/редакторы
 .vscode/
 .idea/
@@ -37,10 +34,6 @@ babel.config.js
 
 # Кэширование OS
 *.log
-
-# Тесты
-*.test.js
-*.spec.js
 
 # Пакеты и локальные зависимости
 package-lock.json
