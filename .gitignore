@@ -1,0 +1,48 @@
+# Системные файлы и временные файлы
+.DS_Store
+Thumbs.db
+
+# Лог-файлы
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Папки Node.js
+node_modules/
+.pnpm/
+
+# Кэш Jest
+coverage/
+jest-cache/
+jest-config/
+
+# Бандлы и временные файлы сборки
+dist/
+build/
+
+# Babel
+babel.config.js
+
+# IDE/редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env-файлы
+.env
+.env.local
+.env.*.local
+
+# Кэширование OS
+*.log
+
+# Тесты
+*.test.js
+*.spec.js
+
+# Пакеты и локальные зависимости
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
